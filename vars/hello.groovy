@@ -1,3 +1,4 @@
-def call(name) {
+def call(name, number) {
   echo "Hello ${name}, building"
+  echo "print ${number}"
  }
