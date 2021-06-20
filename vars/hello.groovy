@@ -1,5 +1,3 @@
-def call(name.p)
-def call(number) {
+def call(name.p) {
   echo "Hello ${name.p}, building"
-  echo "Hello print ${number}"
  }
