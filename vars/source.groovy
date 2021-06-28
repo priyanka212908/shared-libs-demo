@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                    hello_type("priya")
+                    hello("priya")
             }
         }
     }
@@ -20,7 +20,7 @@ pipeline {
   else (name==venkata) {
         stage('deploy') {
             steps {
-                    hello_type("venkata") 
+                    hello("venkata") 
             }
         }
     }
